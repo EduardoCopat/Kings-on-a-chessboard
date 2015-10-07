@@ -53,7 +53,7 @@ function calculateChessKings() {
 		}
 	}
 
-	console.log(possiblePositions); //Will print 4035
+	console.log(possiblePositions); //Will print 4032
 	console.log(mutuallyAttacking); //Will print 420
 	console.log(possiblePositions - mutuallyAttacking); // Will print 3612
 }
